@@ -1,0 +1,26 @@
+{
+  "name": "ggwave",
+  "version": "1.0.0",
+  "description": "Tiny data-over-sound library",
+  "keywords": "audio, data-transmission, sound",
+  "authors": {
+    "name": "Georgi Gerganov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ggerganov/ggwave.git"
+  },
+  "license": "MIT",
+  "frameworks": ["arduino", "espidf"],
+  "platforms": "*",
+  "build": {
+    "flags": [
+      "-I include",
+      "-I reed-solomon"
+    ],
+    "srcFilter": [
+      "+<*.cpp>",
+      "+<*.c>"
+    ]
+  }
+}

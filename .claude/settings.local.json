@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dmesg:*)",
+      "Bash(udevadm info:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
